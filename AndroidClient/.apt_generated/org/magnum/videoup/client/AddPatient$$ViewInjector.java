@@ -7,12 +7,12 @@ import butterknife.ButterKnife.Finder;
 public class AddPatient$$ViewInjector {
   public static void inject(Finder finder, final org.magnum.videoup.client.AddPatient target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131296256, "field 'userName_'");
-    target.userName_ = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131296286, "field 'textview_'");
-    target.textview_ = (android.widget.TextView) view;
     view = finder.findRequiredView(source, 2131296259, "field 'server_'");
     target.server_ = (android.widget.EditText) view;
+    view = finder.findRequiredView(source, 2131296286, "field 'textview_'");
+    target.textview_ = (android.widget.TextView) view;
+    view = finder.findRequiredView(source, 2131296256, "field 'userName_'");
+    target.userName_ = (android.widget.EditText) view;
     view = finder.findRequiredView(source, 2131296257, "field 'password_'");
     target.password_ = (android.widget.EditText) view;
     view = finder.findRequiredView(source, 2131296258, "method 'login'");
@@ -27,9 +27,9 @@ public class AddPatient$$ViewInjector {
   }
 
   public static void reset(org.magnum.videoup.client.AddPatient target) {
-    target.userName_ = null;
-    target.textview_ = null;
     target.server_ = null;
+    target.textview_ = null;
+    target.userName_ = null;
     target.password_ = null;
   }
 }
