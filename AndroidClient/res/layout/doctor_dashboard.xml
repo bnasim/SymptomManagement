@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10px"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Symptom Management Doctor Dashboard" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Patient Record" />
+     <Button
+        android:id="@+id/b6"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Find Patient" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        
+        android:text="Add Medication" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Update Medication" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Alerts" />
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Graphical View of CheckIns" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Profile" />
+
+</LinearLayout></RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.magnum.videoup.client"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.magnum.videoup.client.LoginScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.magnum.videoup.client.PatientListActivity"
+            android:label="@string/title_activity_video_list" >
+        </activity>
+       
+        <activity
+            android:name="org.magnum.videoup.client.RealtimeGraph"
+             >
+        </activity>
+        <activity
+            android:name="org.magnum.videoup.client.AlertListActivity"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.PatientCheckIn"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.AlarmListActivity"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.MedicationForPatientActivity"
+             >
+        </activity>
+          <activity
+            android:name="org.magnum.videoup.client.SearchPatient"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.CheckInStep2"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.CheckInNow"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.CheckInListActivity"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.MedicationDetailActivity"
+             >
+        </activity>
+        <activity
+            android:name="org.magnum.videoup.client.DatetimeActivity"
+             >
+        </activity>
+        <activity
+            android:name="org.magnum.videoup.client.AddVideoActivity"
+             >
+        </activity>
+       <activity
+            android:name="org.magnum.videoup.client.MedicationListActivity"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.PatientDashboard"
+             >
+        </activity>
+         <activity
+            android:name="org.magnum.videoup.client.Add_Medication"
+             >
+        </activity>
+        <activity
+            android:name="org.magnum.videoup.client.PatientProfile"
+             >
+        </activity>
+        <activity
+            android:name="org.magnum.videoup.client.DoctorProfile"
+             >
+        </activity>
+        <activity
+            android:name="org.magnum.videoup.client.DoctorDashboard"
+             >
+        </activity>
+         <activity android:name="org.magnum.videoup.client.AlarmScreen" />
+       <activity android:name="org.magnum.videoup.client.TestBC" />
+        
+        <activity android:name="org.magnum.videoup.client.AlarmDetailsActivity" />
+
+        <service android:name="org.magnum.videoup.client.AlarmService" 
+            android:enabled="true"/>
+        
+        <receiver android:name="org.magnum.videoup.client.AlarmManagerHelper" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
