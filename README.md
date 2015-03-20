@@ -17,11 +17,11 @@ This is a Symptom Management application where patient submit their symptoms to 
 
 Following are the functionalities developed for doctor.
 
-View list of assigned patient
+    View list of assigned patient
 
-View patient pain levels
+    View patient pain levels
 
-View patient’s medication usage.
+    View patient’s medication usage.
 
 Notification of severe patients
 
