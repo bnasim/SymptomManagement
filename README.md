@@ -23,31 +23,31 @@ Following are the functionalities developed for doctor.
 
     View patient’s medication usage.
 
-Notification of severe patients
+    Notification of severe patients
 
-Visualize patient data for quick analysis
+    Visualize patient data for quick analysis
 
-Search and view any patient data
+    Search and view any patient data
 
-View patient prescription
+    View patient prescription
 
-Add/delete patient prescription
+    Add/delete patient prescription
 
-Add new medication to prescribe
+   Add new medication to prescribe
 
 For Patient.
 
-Submit symptom details
+   Submit symptom details
 
-Track pain
+   Track pain
 
-Track medication usage
+   Track medication usage
 
-Reminder to enter data
+   Reminder to enter data
 
-Ability to capture image of his symptom and send to doctor
+   Ability to capture image of his symptom and send to doctor
 
-Ability to record video and send to doctor
+   Ability to record video and send to doctor
  
 Server side script developed using Spring MVC framework , REST API
 
