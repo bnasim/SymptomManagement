@@ -12,7 +12,7 @@ import org.springframework.security.oauth2.provider.client.ClientDetailsUserDeta
  * A class that combines a UserDetailsService and ClientDetailsService
  * into a single object.
  * 
- * @author jules
+ * @author Nasim
  *
  */
 public class ClientAndUserDetailsService implements UserDetailsService,
