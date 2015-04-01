@@ -1,6 +1,6 @@
 /* 
  **
- ** Copyright 2014, Jules White
+ ** Copyright 2014, Nasim Banu
  **
  ** 
  */
@@ -13,7 +13,7 @@ package org.magnum.mobilecloud.video.client;
  * A more robust implementation would probably have fields for tracking
  * the type of exception (e.g., bad password, etc.).
  * 
- * @author jules
+ * @author Nasim
  *
  */
 public class SecuredRestException extends RuntimeException {
