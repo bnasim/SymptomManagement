@@ -1,6 +1,6 @@
 /* 
  **
- ** Copyright 2014, Jules White
+ ** Copyright 2014, Nasim Banu
  **
  ** 
  */
@@ -40,7 +40,7 @@ import com.google.gson.JsonObject;
  * 
  * You can use it like this:
  * 
-  	private VideoSvcApi videoService = new SecuredRestBuilder()
+  	private PatientSvcApi videoService = new SecuredRestBuilder()
 			.setLoginEndpoint(TEST_URL + VideoSvcApi.TOKEN_PATH)
 			.setUsername(USERNAME)
 			.setPassword(PASSWORD)
@@ -49,7 +49,7 @@ import com.google.gson.JsonObject;
 			.setEndpoint(TEST_URL).setLogLevel(LogLevel.FULL).build()
 			.create(VideoSvcApi.class);
  * 
- * @author Jules, Mitchell
+ * @author Nasim Banu
  *
  */
 public class SecuredRestBuilder extends RestAdapter.Builder {
