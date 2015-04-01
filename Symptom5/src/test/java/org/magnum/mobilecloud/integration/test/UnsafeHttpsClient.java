@@ -14,7 +14,7 @@ import org.apache.http.impl.client.HttpClients;
  * certificates are ususally only OK for testing purposes, such as
  * this use case. 
  * 
- * @author jules
+ * @author Nasim
  *
  */
 public class UnsafeHttpsClient {
