@@ -29,13 +29,13 @@ import retrofit.http.Path;
 import retrofit.http.Query;
 
 /**
- * This interface defines an API for a VideoSvc that uses @OneToMany. The
+ * This interface defines an API for a PatientSvc that uses @OneToMany. The
  * interface is used to provide a contract for client/server
  * interactions. The interface is annotated with Retrofit
  * annotations so that clients can automatically convert the
  * 
  * 
- * @author jules
+ * @author Nasim
  *
  */
 public interface PatientSvcApi {
